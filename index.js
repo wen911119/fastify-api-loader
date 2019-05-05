@@ -13,7 +13,7 @@ const registerAPI = fastify => APIConstructor => {
           fastify.route({
             url: `/${APIConstructor.name.toLocaleLowerCase()}${url}`,
             method,
-            handler: apisInstance[apiName],
+            handler: apisInstance[apiName].bind(apisInstance),
             schema
           })
         })
