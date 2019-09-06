@@ -1,6 +1,6 @@
 {
   "name": "@ruiyun/fastify-api-loader",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "author": "wen911119@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "globby": "^9.2.0"
+    "globby": "^10.0.1"
   },
   "peerDependencies": {
     "fastify": "^2.1.0"
